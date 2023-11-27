@@ -48,10 +48,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
 .hero {
   height: 800px;
   width: 100%;
@@ -59,6 +55,37 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*Consolidated SEO-ORM-SMM under the content headings class for cleaner and more streamlined code*/
+.content-headings {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Consolidated content-headings img together with identical elements */
+.content-headings img {
+  max-height: 200px;
+}
+
+/* Consolidated content-headings h2 together with identical elements */
+.content-headings h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .float-left {
@@ -71,12 +98,6 @@ p {
   float: right;
   margin-left: 25px;
   display: block;
-}
-
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
 
 .benefits {
@@ -108,27 +129,6 @@ h3 {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-/*Consolidated SEO-ORM-SMM under the content headings class for cleaner and more streamlined code*/
-.content-headings {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* Consolidated content-headings img together with identical elements */
-.content-headings img {
-  max-height: 200px;
-}
-
-/* Consolidated content-headings h2 together with identical elements */
-.content-headings h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 /* Added code to make <p> text white in benefits section */
