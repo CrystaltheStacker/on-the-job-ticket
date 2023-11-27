@@ -16,12 +16,15 @@ body {
   color: #ffffff;
 }
 
+/*Combined header and header.seo attributes*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
+  color: #d9dcd6;
 }
 
-.header nav {
+/*Changed div to nav to reflect the change to semantic HTML*/
+.header nav { 
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -29,10 +32,12 @@ body {
   font-size: 20px;
 }
 
+/*Changed div to nav to reflect the change to semantic HTML*/
 .header nav ul {
   list-style-type: none;
 }
 
+/*Changed div to nav to reflect the change to semantic HTML*/
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
@@ -56,30 +61,6 @@ p {
   background-position: center;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.article {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.content-img {
-  max-height: 200px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
 .float-left {
   float: left;
   margin-right: 25px;
@@ -90,6 +71,12 @@ h2 {
   float: right;
   margin-left: 25px;
   display: block;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .benefits {
@@ -103,11 +90,13 @@ h2 {
   background-color: #2589bd;
 }
 
+/*Consolidated benefit section sub-categories under a new id*/
 .aside-class {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/*Consolidated h3 benefit section sub-categories*/
 h3 {
   margin-bottom: 10px;
   text-align: center;
@@ -115,17 +104,13 @@ h3 {
   text-decoration: none;
 }
 
-img {
+.aside-img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-p {
-  color: #ffffff;
-  text-decoration: none;
-}
-
+/*Consolidated SEO-ORM-SMM under the content headings class for cleaner and more streamlined code*/
 .content-headings {
   margin-bottom: 20px;
   padding: 50px;
@@ -134,14 +119,22 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
+
+/* Consolidated content-headings img together with identical elements */
 .content-headings img {
   max-height: 200px;
 }
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+
+/* Consolidated content-headings h2 together with identical elements */
+.content-headings h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+/* Added code to make <p> text white in benefits section */
+p {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer {
@@ -152,6 +145,7 @@ p {
   text-align: center;
 }
 
+/* Changed from h2 to h4 to reflect order and relevance */
 .footer h4 {
     font-size: 20px;
 }
