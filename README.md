@@ -1,27 +1,52 @@
 # on-the-job-ticket
 
-Code refactoring mini-project for accessibility
-#Refactoring for Accessibility
+# Code Refactoring for Accessibility Challenge: Horiseon Website
 
-##User Story
-As a junior developer, I want to refactor existing code to make the website more accessible. This should include ensuring that all links are functioning correctly, increasing the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow semantic structure of the HTML elements, and including comments before each element or section of the page.
+## My Task
 
-##Acceptance Criteria
-It's done when the application's links all function correctly.
-It's done when the application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-It's done when the application's CSS file is properly commented.
-It's done when the application is deployed at live URL.
-It's done when the application loads with no errors.
-It's done when the application GitHub URL submitted.
-It's done when the GitHub repository contains application code.
-It's done when the application resembles mock-up provided in the Challenge instructions (at least 90%).
+As a junior developer, I was tasked with refactoring existing code for Horiseon, a marketing agency.
+The client has requested an updated landing page that is optimized for search engines (SEO) and follows Web Content Accessibility Guidelines (WCAG) requirements.
 
-It's done when the repository has a unique name.
-It's done when the repository follows best practices for file structure and naming conventions.
-It's done when the repository follows best practices for class/id naming conventions, indentation, quality comments, etc...
-It's done when the repository contains multiple descriptive commit messages.
-It's done when the repository contains quality README file with description, screenshot, and link to deployed application.
+## Acceptance Criteria
+* Proper usage of semantic HTML elements
+* Logical structure of HTML elements independent of styling and positioning
+* Image and icon elements contain accessible alt attributes
+* Heading attributes fall in sequential order
+* Title element is concise and descriptive
 
-It's done when the project has been deployed by GitHub.
-It's done when I have submitted the URL of the deployed application.
-It's done when I have submitted the URL of the GitHub repository, with a unique name and a README that describes the project.
+## Work Completed
+
+* Site links all function correctly.
+* Added and optimized the website title.
+* Fixed broken internal links.
+* Refactored HTML to make use of semantic elements.
+* CSS selectors and properties are consolidated and organized to follow semantic structure.
+* CSS and HTML files are properly commented.
+* Re-ordered CSS to follow HTML structure.
+* Added alt attributes to images.
+* Final landing page deployed at live URL.
+* Final landing page loads with no errors.
+* Challenge submitted with GitHub URL.
+* GitHub repo On-the-Job-Ticket contains my refactored HTML and CSS code.
+* On-the-Job-Ticket repository includes README file explaining changes made from original challenge requirements.
+* Final landing page matches mock-up provided in the Challenge instructions.
+* Repository has a unique name.
+* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository contains multiple descriptive commit messages.
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+
+## Website Link
+https://github.com/CrystaltheStacker/on-the-job-ticket
+
+## Screenshot of refactored HTML
+![Refactored HTML Screenshot](image.html%20refactored%20code.png)
+
+## Screenshot of refactored CSS
+![Refactored CSS Screenshot](./style.css%20refactored%20code.png)
+
+## Screenshot of final landing page
+![Final Landing Page](./_C__Users_thehi_bootcamp_on-the-job-ticket_index.html.png)
+
+## Contact
+crystaluncwebdev@gmail.com
